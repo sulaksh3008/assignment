@@ -1,0 +1,87 @@
+body {
+    background:url("images/bg.webp");
+    background-position: 100% 100%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    opacity:0.9 ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3d8b3d;
+  }
+  
+  /* Optional: Add styles for the "Home" button on index2.php */
+  a.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  .start-button {
+    margin-top: 10px; /* Add desired margin between button and text */
+}
+
+  a.button:hover {
+    background-color: #0056b3;
+  }
+  
+  a.button:active {
+    background-color: #00418a;
+  }
+
+  
+  
